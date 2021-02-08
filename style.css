@@ -1,0 +1,84 @@
+body
+{
+	margin: 0;
+	box-sizing: border-box;
+	padding: 0;
+	background-image:url('image.jpg');
+	background-size: cover;
+	background-blend-mode: overlay;
+}
+#container
+{
+	background-color:#ffaf81;
+	height: 250px;
+	width: 30%;
+	margin-left: 35%;
+	margin-top: 15%;
+	border-radius: 20px;
+	background-blend-mode: color-dodge;
+	box-shadow: -3px -3px 3px 3px #779ada,
+				3px 3px 3px 3px #779ada,
+				3px 3px 3px 3px #779ada;
+	opacity: 0.8;	
+}
+#input-location
+{
+	height: 20px;
+	width: 70%;
+	font-size: 18px;
+	margin-left:10%;
+	margin-top: 10%;
+	outline: none;
+   border-radius: 20px;
+   padding: 10px;
+   color: red;
+   border:3px solid #002180;
+}
+
+#submit-btn
+{
+	cursor: pointer;
+	height: 35px;
+	margin-left: 20%;
+	border:3px solid #002180;
+	border-radius: 25px;
+	outline: none;
+}
+h3
+{
+	text-align: center;
+	box-shadow: 10px;
+}
+
+
+
+
+@media (max-width: 500px)
+{
+	body
+	{
+		
+	     background-image:url('beach.jpg');
+
+	}
+
+	#container
+	{
+		background-color:#44f7ff;
+		height: 300px;
+		width: 70%;
+		margin-left: 15%;
+		margin-top: 25%;
+	
+	}
+	#input-location
+	{
+		height: 30px;
+		width: 70%;
+		font-size: 15px;
+	}
+	#submit-btn
+	{
+		margin-left: 25%;
+	}
+}
